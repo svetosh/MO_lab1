@@ -11,8 +11,8 @@ void simplex()
     double s_matrix[matrix_length][matrix_width];
     double ad_matrix[matrix_length][matrix_width];
 
-    int basis_variables[3] = { 1 , 2, 3 };
-    int free_variables[3] = { 4, 5, 6 };
+    int basis_variables[basis_size] = { 1 , 2, 3 };
+    int free_variables[basis_size] = { 4, 5, 6 };
     double min = -1;
     std::cout << std::fixed;
     std::ifstream in("data.txt");
